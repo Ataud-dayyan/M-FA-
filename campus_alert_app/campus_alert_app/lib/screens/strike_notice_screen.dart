@@ -3,6 +3,7 @@ import '../theme/app_theme.dart';
 import '../models/status_models.dart';
 import '../services/api_service.dart';
 import '../services/auth_service.dart';
+import 'package:campus_alert_app/models/alert_model.dart';
 
 /// Shown when the Disciplinary Body has confirmed one of the student's
 /// alerts as a false alarm. States the fact, the consequence, and the

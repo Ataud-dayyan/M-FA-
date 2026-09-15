@@ -4,6 +4,7 @@ import '../models/status_models.dart';
 import '../services/api_service.dart';
 import '../services/auth_service.dart';
 import 'strike_notice_screen.dart';
+import 'package:campus_alert_app/models/alert_model.dart';
 
 /// Every alert the student has ever raised, genuine or false — nothing
 /// about the strike system is hidden after the fact (see Chapter One's

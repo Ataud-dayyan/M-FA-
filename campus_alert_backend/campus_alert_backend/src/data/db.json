@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "matricNumber": "FPI/CS/21/0842",
+      "fullName": "Adaeze Okafor",
+      "passwordHash": "$2a$10$JwFiU567P4ppn8XyDs//IO8SmH9Z1mdGX0uXRzXymeBmw2haZRSEG",
+      "strikeCount": 0
+    }
+  ],
+  "alerts": []
+}

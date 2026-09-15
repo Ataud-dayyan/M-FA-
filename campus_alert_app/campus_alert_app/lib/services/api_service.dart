@@ -10,7 +10,7 @@ import '../models/status_models.dart';
 class ApiService {
   // Point this at your Express server. Use 10.0.2.2 instead of localhost
   // when testing on the Android emulator.
-  static const String baseUrl = 'http://10.0.2.2:4000/api';
+  static const String baseUrl = 'https://redesigned-lamp-979wwv794g7j2p499-4000.app.github.dev/';
 
   /// POST /api/auth/login
   /// Body: { matricNumber, password }
