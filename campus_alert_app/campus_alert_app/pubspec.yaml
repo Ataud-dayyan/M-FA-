@@ -1,0 +1,24 @@
+name: campus_alert_app
+description: Campus Emergency Alert & Contact System (student-facing Flutter app)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0              # REST calls to the Node/Express API
+  shared_preferences: ^2.2.2 # persist auth token + matric number locally
+  geolocator: ^11.0.0        # attach location to an alert
+  google_fonts: ^6.2.1       # Fraunces / IBM Plex Sans / IBM Plex Mono
+  url_launcher: ^6.2.5       # tel: link for "Call Responder" on Live Status
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
